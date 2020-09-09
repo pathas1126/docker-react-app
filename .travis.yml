@@ -21,5 +21,6 @@ deploy:
   bucket_path: docer-react-app
   on:
     branch: master
+
   access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWD_SECRET_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
